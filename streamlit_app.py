@@ -11,7 +11,9 @@ st.write(
 # Static file serving
 """
 
-st.caption("[Code for this demo](https://github.com/streamlit/release-demos/blob/master/1.18.0/static-file-serving/streamlit_app.py)")
+st.caption(
+    "[Code for this demo](https://github.com/streamlit/static-file-serving-demo/blob/main/streamlit_app.py)"
+)
 
 """
 Streamlit 1.18 allows you to serve small, static media files via URL. 
@@ -36,7 +38,7 @@ You can use this feature with `st.markdown` to put a link on an image:
 """
 
 with st.echo():
-    st.markdown("[![Click me](app/static/cat.jpg)](https://streamlit.io)")
+    st.markdown("[![Click me](./app/static/cat.jpg)](https://streamlit.io)")
 
 """
 Or you can use images in HTML or SVG:
