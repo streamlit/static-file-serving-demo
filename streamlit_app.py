@@ -30,7 +30,7 @@ enableStaticServing = true
 ```
 
 You can then access the files on `<your-app-url>/app/static/<filename>`. Read more in our 
-[docs]().
+[docs](https://docs.streamlit.io/library/advanced-features/static-file-serving).
 
 ## Examples
 
